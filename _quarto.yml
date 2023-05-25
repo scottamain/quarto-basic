@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Docs"
+  navbar:
+    left:
+      - text: Guides
+        file: guides/index.html
+      - text: Reference
+        file: reference/index.html
+  sidebar:
+    - title: Guides
+      style: docked
+      contents:
+        - text: Overview
+          file: guides/index.html
+    - title: Reference
+      style: docked
+      contents:
+        - text: Overview
+          file: reference/index.html
+
+format:
+  html:
+    theme:
+      light:
+      - flatly
+      dark:
+      - superhero
+    highlight-style: breeze
+    toc: true
